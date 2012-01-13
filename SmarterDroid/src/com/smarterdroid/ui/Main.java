@@ -1,4 +1,4 @@
-package com.smarterdroid;
+package com.smarterdroid.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.smarterdroid.R;
+import com.smarterdroid.R.layout;
 import com.smarterdroid.data.Event;
 import com.smarterdroid.data.Place;
 import com.smarterdroid.data.Task;
