@@ -29,7 +29,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		String sql;
-		Log.i("***DatabaseHelper", "upgrade");
+		Log.i("***DatabaseHelper", "upgrade from " + oldVersion + " to "
+				+ newVersion);
 		for (String table : tableNames) {
 			sql = "DROP TABLE IF EXISTS " + table + ";";
 			db.execSQL(sql);

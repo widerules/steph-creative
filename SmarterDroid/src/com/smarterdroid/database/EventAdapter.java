@@ -15,7 +15,7 @@ public class EventAdapter extends DatabaseAdapter<Event> {
 
 	private static final String COL_DESCRIPTION = "description";
 	private static final int NUM_COL_DESCRIPTION = 1;
-	private static final String COL_DATE = "date";
+	private static final String COL_DATE = "event_date";
 	private static final int NUM_COL_DATE = 2;
 	private static final String COL_PREVENT_TIME = "prevent_time";
 	private static final int NUM_COL_PREVENT_TIME = 3;
@@ -30,6 +30,7 @@ public class EventAdapter extends DatabaseAdapter<Event> {
 			+ " (" 
 			+ COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
 			+ COL_DESCRIPTION + " TEXT NOT NULL, " 
+			+ COL_DATE + " TEXT NOT NULL, "
 			+ COL_PREVENT_TIME + " INTEGER NOT NULL, " 
 			+ COL_PLACE_ID + " INTEGER NOT NULL, "
 			+ COL_SHARED + " INTEGER NOT NULL, " 
@@ -54,14 +55,27 @@ public class EventAdapter extends DatabaseAdapter<Event> {
 
 	/** Convert date to string */
 	private String dateToString(Date date) {
-		// TODO Auto-generated method stub
-		return null;
+		if(date==null) return "";
+		String str= "";
+		str+= date.getDate();
+		str+= ":"+date.getMonth();
+		str+= ":"+date.getYear();
+		str+= ":"+date.getHours();
+		str+= ":"+date.getMinutes();
+		return str;
 	}
 
 	/** convert string to date */
 	private Date stringToDate(String str) {
-		// TODO
-		return null;
+		if(str.equals("")) return null;
+		String el[] = str.split(":");
+		Date date = new Date();
+		date.setDate(Integer.parseInt(el[0]));
+		date.setMonth(Integer.parseInt(el[1]));
+		date.setYear(Integer.parseInt(el[2]));
+		date.setHours(Integer.parseInt(el[3]));
+		date.setMinutes(Integer.parseInt(el[4]));
+		return date;
 	}
 
 	@Override
