@@ -14,9 +14,8 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int imageCheck=0x7f050003;
-        public static final int imageDelete=0x7f050004;
-        public static final int imageIcon=0x7f050000;
+        public static final int imageLeft=0x7f050000;
+        public static final int imageRight=0x7f050003;
         public static final int textDescription=0x7f050002;
         public static final int textName=0x7f050001;
     }
