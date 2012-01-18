@@ -13,12 +13,11 @@ import android.util.Log;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.creativedroid.ui.ListViewItem;
+import com.creativedroid.ui.ListViewManager;
+import com.creativedroid.ui.ServiceConnector;
+import com.creativedroid.ui.Util;
 import com.smarterdroid.R;
-
-import creativedroid.ui.ListViewItem;
-import creativedroid.ui.ListViewManager;
-import creativedroid.ui.ServiceConnector;
-import creativedroid.ui.Util;
 
 public class Main extends Activity implements Vocabulary {
 

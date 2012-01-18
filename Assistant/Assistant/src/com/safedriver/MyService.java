@@ -8,8 +8,9 @@ import android.os.Binder;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
-import creativedroid.service.IServiceBinder;
-import creativedroid.service.Voice;
+
+import com.creativedroid.service.IServiceBinder;
+import com.creativedroid.service.Voice;
 
 /**
  * implementation of service operations

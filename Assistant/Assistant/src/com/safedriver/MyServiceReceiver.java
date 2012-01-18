@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import creativedroid.service.BasicBroadcastReceiver;
+
+import com.creativedroid.service.BasicBroadcastReceiver;
 
 interface IMyServiceReceiver{
 	
