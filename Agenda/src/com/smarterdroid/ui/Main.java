@@ -15,6 +15,7 @@ import com.creativedroid.database.DataBaseHelper;
 import com.creativedroid.ui.ListViewItem;
 import com.creativedroid.ui.ListViewManager;
 import com.creativedroid.ui.ServiceConnector;
+
 import com.smarterdroid.R;
 import com.smarterdroid.dataaccess.EventAdapter;
 import com.smarterdroid.dataaccess.PlaceAdapter;
