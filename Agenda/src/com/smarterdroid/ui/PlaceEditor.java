@@ -10,11 +10,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.creativedroid.ui.ListViewItem;
+import com.creativedroid.ui.ListViewManager;
+import com.creativedroid.ui.Util;
 import com.smarterdroid.R;
 import com.smarterdroid.object.Place;
-import creativedroid.ui.ListViewItem;
-import creativedroid.ui.ListViewManager;
-import creativedroid.ui.Util;
 
 /**
  * Activity to edit a place

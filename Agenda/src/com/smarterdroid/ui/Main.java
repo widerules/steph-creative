@@ -11,6 +11,10 @@ import android.util.Log;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.creativedroid.database.DataBaseHelper;
+import com.creativedroid.ui.ListViewItem;
+import com.creativedroid.ui.ListViewManager;
+import com.creativedroid.ui.ServiceConnector;
 import com.smarterdroid.R;
 import com.smarterdroid.dataaccess.EventAdapter;
 import com.smarterdroid.dataaccess.PlaceAdapter;
@@ -19,11 +23,6 @@ import com.smarterdroid.object.Place;
 import com.smarterdroid.service.IMyService;
 import com.smarterdroid.service.MyService;
 import com.smarterdroid.service.MyServiceReceiver;
-
-import creativedroid.database.DataBaseHelper;
-import creativedroid.ui.ListViewItem;
-import creativedroid.ui.ListViewManager;
-import creativedroid.ui.ServiceConnector;
 
 public class Main extends Activity implements Vocabulary {
 

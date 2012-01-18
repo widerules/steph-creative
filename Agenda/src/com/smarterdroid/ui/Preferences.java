@@ -3,20 +3,19 @@ package com.smarterdroid.ui;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.creativedroid.ui.ListViewItem;
+import com.creativedroid.ui.ListViewManager;
+import com.creativedroid.ui.Util;
 import com.smarterdroid.R;
 import com.smarterdroid.service.MyServiceReceiver;
-
-import creativedroid.ui.ListViewItem;
-import creativedroid.ui.ListViewManager;
-import creativedroid.ui.Util;
 
 /**
  * Activity for setting service configurations

@@ -1,12 +1,12 @@
 package com.smarterdroid.service;
 
-import com.smarterdroid.object.ServiceConfig;
-
-import creativedroid.service.BasicBroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.creativedroid.service.BasicBroadcastReceiver;
+import com.smarterdroid.object.ServiceConfig;
 
 interface IMyServiceReceiver{
 	

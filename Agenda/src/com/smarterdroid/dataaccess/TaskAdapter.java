@@ -5,9 +5,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.creativedroid.database.DatabaseAdapter;
 import com.smarterdroid.object.Task;
-
-import creativedroid.database.DatabaseAdapter;
 
 public class TaskAdapter extends DatabaseAdapter<Task>{
 	

@@ -1,13 +1,12 @@
 package com.smarterdroid.dataaccess;
 
-import com.smarterdroid.object.Place;
-
-import creativedroid.database.DatabaseAdapter;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import com.creativedroid.database.DatabaseAdapter;
+import com.smarterdroid.object.Place;
 
 public class PlaceAdapter extends DatabaseAdapter<Place> {
 

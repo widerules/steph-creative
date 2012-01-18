@@ -1,17 +1,16 @@
 package com.smarterdroid.service;
 
-import com.smarterdroid.object.ServiceConfig;
-import com.smarterdroid.ui.Pool;
-
-import creativedroid.service.IServiceBinder;
-import creativedroid.service.Voice;
-
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
+
+import com.creativedroid.service.IServiceBinder;
+import com.creativedroid.service.Voice;
+import com.smarterdroid.object.ServiceConfig;
+import com.smarterdroid.ui.Pool;
 
 /**
  * implementation of service operations

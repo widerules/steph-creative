@@ -9,14 +9,13 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.creativedroid.service.LocationReceiver;
+import com.creativedroid.service.SMSReceiver;
+import com.creativedroid.service.SpeedLimiter;
+import com.creativedroid.service.Voice;
 import com.smarterdroid.object.Place;
 import com.smarterdroid.object.ServiceConfig;
 import com.smarterdroid.ui.Vocabulary;
-
-import creativedroid.service.LocationReceiver;
-import creativedroid.service.SMSReceiver;
-import creativedroid.service.SpeedLimiter;
-import creativedroid.service.Voice;
 
 /**
  * Implementation of service functions
